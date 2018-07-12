@@ -6,7 +6,8 @@
 
 ### Windows Server
 [Get-UPDReport](https://github.com/vfedenko/PowerShellScripts/tree/master/Get-UPDReport) - RDS User Profile Disks (UPDs) report including account information from Active Directory. <br />
-[Compare-GPOs](https://github.com/vfedenko/PowerShellScripts/tree/master/Compare-GPOs) - Troubleshoot Group Policy issues.
+[Compare-GPOs](https://github.com/vfedenko/PowerShellScripts/tree/master/Compare-GPOs) - Troubleshoot Group Policy issues. <br />
+[Get-ADComputerServiceAccounts](https://github.com/vfedenko/PowerShellScripts/tree/master/Get-ADComputerServiceAccounts) - Active Directory service accounts report.
 
 ### Networking
 [TCPListen](https://github.com/vfedenko/PowerShellScripts/tree/master/TCPListen) - Open TCP port and listen for connections. Useful for troubleshooting TCP/IP or Firewall issues. <br />
