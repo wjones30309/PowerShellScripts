@@ -8,7 +8,8 @@
 [Get-UPDReport](https://github.com/vfedenko/PowerShellScripts/tree/master/Get-UPDReport) - RDS User Profile Disks (UPDs) report including account information from Active Directory. <br />
 [Compare-GPOs](https://github.com/vfedenko/PowerShellScripts/tree/master/Compare-GPOs) - Troubleshoot Group Policy issues. <br />
 [Get-ADComputerServiceAccounts](https://github.com/vfedenko/PowerShellScripts/tree/master/Get-ADComputerServiceAccounts) - Active Directory service accounts report. <br />
-[Get-ADComputerNetConfig](https://github.com/vfedenko/PowerShellScripts/tree/master/Get-ADComputerNetConfig) - Network configuration report of Active Directory domain joined servers and workstations.
+[Get-ADComputerNetConfig](https://github.com/vfedenko/PowerShellScripts/tree/master/Get-ADComputerNetConfig) - Network configuration report of Active Directory domain joined servers and workstations. <br />
+[CheckpointSize](https://github.com/vfedenko/PowerShellScripts/tree/master/CheckpointSize) - Hyper-V checkpoint size report via VMM Command Shell.
 
 ### Networking
 [TCPListen](https://github.com/vfedenko/PowerShellScripts/tree/master/TCPListen) - Open TCP port and listen for connections. Useful for troubleshooting TCP/IP or Firewall issues. <br />
