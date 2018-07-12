@@ -12,7 +12,7 @@ Searches all active directory servers/workstations and gets network information.
 ```
 Searches all servers and exports data to Report.csv file.
 ```powershell
-Get-ADComputerNetConfig.ps1 -File "C:\Folder\Report.csv"
+.\Get-ADComputerNetConfig.ps1 -File "C:\Folder\Report.csv"
 ```
 Searches all computer objects in specific Active Directory Organizational Unit (including sub-ou's).
 ```powershell
@@ -20,13 +20,13 @@ Searches all computer objects in specific Active Directory Organizational Unit (
 ```
 Export results to csv file.
 ```powershell
-Get-ADComputerNetConfig.ps1 -OU "OU=Servers,DC=contoso,DC=com" -File "C:\Folder\Report.csv"
+.\Get-ADComputerNetConfig.ps1 -OU "OU=Servers,DC=contoso,DC=com" -File "C:\Folder\Report.csv"
 ```
 Get network configuration of single server.
 ```powershell
-Get-ADComputerNetConfig.ps1 -ComputerName Server1
+.\Get-ADComputerNetConfig.ps1 -ComputerName Server1
 ```
 Single server network configuration to CSV file.
 ```powershell
-Get-ADComputerNetConfig.ps1 -ComputerName Server1 -File "C:\Folder\Report.csv"
+.\Get-ADComputerNetConfig.ps1 -ComputerName Server1 -File "C:\Folder\Report.csv"
 ```
