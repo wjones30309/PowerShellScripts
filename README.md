@@ -5,10 +5,11 @@
 [Get-MsolGroupMember](https://github.com/vfedenko/PowerShellScripts/tree/master/Get-MsolGroupMember) - Extend functionality of Get-MsolGroupMember cmdlet from Windows Azure Active Directory Module. Just Office 365 groups membership report script.
 
 ### Windows Server
-[Get-UPDReport](https://github.com/vfedenko/PowerShellScripts/tree/master/Get-UPDReport) - RDS User Profile Disks (UPDs) report including account information from Active Directory.
+[Get-UPDReport](https://github.com/vfedenko/PowerShellScripts/tree/master/Get-UPDReport) - RDS User Profile Disks (UPDs) report including account information from Active Directory. <br />
+[Compare-GPOs](https://github.com/vfedenko/PowerShellScripts/tree/master/Compare-GPOs) - Troubleshoot Group Policy issues.
 
 ### Networking
 [TCPListen](https://github.com/vfedenko/PowerShellScripts/tree/master/TCPListen) - Open TCP port and listen for connections. Useful for troubleshooting TCP/IP or Firewall issues. <br />
 
 ### PowerShell games
-[Start-SeaBattle](https://github.com/vfedenko/PowerShellScripts/tree/master/Start-SeaBattle) - Create 5 submarines (single-funnel) and play against computer. 
+[Start-SeaBattle](https://github.com/vfedenko/PowerShellScripts/tree/master/Start-SeaBattle) - Create 5 submarines (single-funnel) and play against computer.
