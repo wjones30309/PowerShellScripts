@@ -31,7 +31,7 @@ To simulate a replication issue I will go to the second Domain Controller and re
 ![](https://github.com/vfedenko/PowerShellScripts/blob/master/Compare-GPOs/screen3.jpg)
 
 As result you will see the User and Computer versions are not available in Group Policy Management console of DC02.
-![](https://github.com/vfedenko/PowerShellScripts/blob/master/Compare-GPOs/screen3.jpg)
+![](https://github.com/vfedenko/PowerShellScripts/blob/master/Compare-GPOs/screen4.jpg)
 
 Compare-GPOs PowerShell script can help to identify such Group Policy objects.
 ```powershell
