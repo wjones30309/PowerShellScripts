@@ -1,6 +1,6 @@
 ### Generate guid using PowerShell
 
-This PowerShell script uses NewGuid() method of the .Net Framework guid class to generate a Globally Unique Identifier. You can generate 1 GUID by running the script or specify how many GUID’s you want.
+This PowerShell script uses **NewGuid()** method of the **.Net Framework** guid class to generate a Globally Unique Identifier. You can generate 1 GUID by running the script or specify how many GUID’s you want.
 
 ### Examples
 ```
