@@ -12,6 +12,7 @@
 [CheckpointSize](https://github.com/vfedenko/PowerShellScripts/tree/master/CheckpointSize) - Hyper-V checkpoint size report via VMM Command Shell. <br />
 [SendGmail](https://github.com/vfedenko/PowerShellScripts/tree/master/SendGmail) - Send Gmail via Powershell. <br />
 [Get-NTFSPermissions](https://github.com/vfedenko/PowerShellScripts/tree/master/Get-NTFSPermissions) - NTFS Permissions report. <br />
+[Generate-GUID](https://github.com/vfedenko/PowerShellScripts/tree/master/Generate-GUID) - Generate guid using PowerShell. <br />
 
 ### Networking
 [TCPListen](https://github.com/vfedenko/PowerShellScripts/tree/master/TCPListen) - Open TCP port and listen for connections. Useful for troubleshooting TCP/IP or Firewall issues. <br />
