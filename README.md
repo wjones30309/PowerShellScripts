@@ -4,6 +4,9 @@
 [Get-CalendarPermissionsReport](https://github.com/vfedenko/PowerShellScripts/tree/master/Get-CalendarPermissionsReport) - Calendar permissions report for Exchange 2010/2013/2016 and Exchange Online.
 [Get-MsolGroupMember](https://github.com/vfedenko/PowerShellScripts/tree/master/Get-MsolGroupMember) - Extend functionality of Get-MsolGroupMember cmdlet from Windows Azure Active Directory Module. Just Office 365 groups membership report script.
 
+### Windows Server
+[Get-UPDReport](https://github.com/vfedenko/PowerShellScripts/tree/master/Get-UPDReport) - RDS User Profile Disks (UPDs) report including account information from Active Directory.
+
 ### Networking
 [TCPListen](https://github.com/vfedenko/PowerShellScripts/tree/master/TCPListen) - Open TCP port and listen for connections. Useful for troubleshooting TCP/IP or Firewall issues. <br />
 
