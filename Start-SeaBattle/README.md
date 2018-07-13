@@ -2,7 +2,7 @@
 
 Create 5 submarines (single-funnel) and play against computer.
 
-![startbattle](https://github.com/vfedenko/PowerShellScripts/blob/master/Start-SeaBattle/Start-SeaBattle.gif)
+![startbattle](Start-SeaBattle.gif)
 
 ## Parameter
 

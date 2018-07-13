@@ -31,16 +31,16 @@ This optional parameter is used to control CPU usage during script execution.
 As example I will use Active Directory domain called "AD.FEDENKO.INFO" and 2 domain controllers "DC01"and "DC02".
 
 I will create a test Group Policy called "Test_GPO" as below.
-![screen1](https://github.com/vfedenko/PowerShellScripts/blob/master/Compare-GPOs/screen1.jpg)
+![screen1](screen1.jpg)
 
 After some GPO settings amendments you can see that User and Computer versions are changed.
-![screen2](https://github.com/vfedenko/PowerShellScripts/blob/master/Compare-GPOs/screen2.jpg)
+![screen2](screen2.jpg)
 
 To simulate a replication issue I will go to the second Domain Controller and remove GPT.ini file.
-![screen3](https://github.com/vfedenko/PowerShellScripts/blob/master/Compare-GPOs/screen3.jpg)
+![screen3](screen3.jpg)
 
 As result you will see the User and Computer versions are not available in Group Policy Management console of DC02.
-![screen4](https://github.com/vfedenko/PowerShellScripts/blob/master/Compare-GPOs/screen4.jpg)
+![screen4](screen4.jpg)
 
 Compare-GPOs PowerShell script can help to identify such Group Policy objects.
 
