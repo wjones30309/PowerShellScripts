@@ -25,3 +25,7 @@
 ## PowerShell games
 
 [Start-SeaBattle](Start-SeaBattle) - Create 5 submarines (single-funnel) and play against computer.
+
+## HowTo's
+
+[Find-AzureEmptyRG](Find-AzureEmptyRG) - Microsoft Azure - Find empty Resource Groups.
