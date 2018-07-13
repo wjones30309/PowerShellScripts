@@ -28,5 +28,5 @@
 
 ## HowTo's
 
-[Find-AzureEmptyRG](Scripts/Find-AzureEmptyRG) - Microsoft Azure - Find empty Resource Groups.
+[Find-AzureEmptyRG](Scripts/Find-AzureEmptyRG) - Microsoft Azure - Find empty Resource Groups.  
 [Fix-AzureVault](Scripts/Fix-AzureVault) - Microsoft Azure - Cross-subscription move error due to KeyVault.
