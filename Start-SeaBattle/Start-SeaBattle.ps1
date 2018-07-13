@@ -1,25 +1,3 @@
-<#  
-.SYNOPSIS 
-Sea Battle game. 
- 
-.DESCRIPTION 
-Create 5 submarines (single-funnel) and play against computer. 
- 
-.PARAMETER EnableCheats 
-Optional parameter. It will show computer's ships in a different table.
-
-.EXAMPLE 
-.\Start-SeaBattle.ps1 
-Starts Sea Battle game 
-
-.EXAMPLE 
-.\Start-SeaBattle.ps1 -EnableCheats
-Starts Sea Battle game in cheat mode (shows computer's ships)
-
-.LINK 
-Script author Slava Fedenko - http://blog.fedenko.info 
-#> 
-
  [CmdletBinding()] 
 Param( 
  [Parameter(Mandatory=$False)]

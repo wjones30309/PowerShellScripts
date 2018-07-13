@@ -1,28 +1,3 @@
-<# 
-.SYNOPSIS
-PowerShell script to troubleshoot Group Policy issues.
-
-.DESCRIPTION
-The script gets list of GPOs on specified Domain Controlers,  compares UserDSVersion, UserSysvolVersion, ComputerDSVersion and ComputerSysvolVersion attributes and prints if any differences are found.
-Script autor Slava Fedenko - http://blog.fedenko.info
-
-.PARAMETER FirstDC
-Mandatory parameter, which specifies FQDN of first Domain Controller.
-
-.PARAMETER SecondDC
-Mandatory parameter, which specifies FQDN of second Domain Controller.
-
-.PARAMETER DelayInMilliseconds
-This optional parameter is used to control CPU usage during script execution.
-
-.EXAMPLE
-.\Compare-GPOs.ps1 -FirstDC DC01.AD.FEDENKO.INFO -SecondDC DC02.AD.FEDENKO.INFO
-
-.EXAMPLE
-.\Compare-GPOs.ps1 -FirstDC DC01.AD.FEDENKO.INFO -SecondDC DC02.AD.FEDENKO.INFO -DelayInMilliseconds 500
-
-#>
-
 [CmdletBinding()]
 Param(
  [Parameter(Mandatory=$True)]
