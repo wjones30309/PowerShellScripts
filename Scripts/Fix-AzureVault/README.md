@@ -4,7 +4,9 @@ The Move resources request contains KeyVault resources which are referenced by o
 
 Known issue after migration from ASM to ARM. The script below will help to identify VM’s with KeyVault and clean up Vault property on VM.
 
-Workaround: Get list of VM’s with KeyVault attached. The report will include VMName, RG and KeyVault itself.
+## Example
+
+Get list of VM’s with KeyVault attached. The report will include VMName, RG and KeyVault itself.
 
 ```powershell
 .\Fix-AzureVault.ps1 -Report
