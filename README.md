@@ -13,7 +13,7 @@
 [Compare-GPOs](Compare-GPOs) - Troubleshoot Group Policy issues.  
 [Get-ADComputerServiceAccounts](Get-ADComputerServiceAccounts) - Active Directory service accounts report.  
 [Get-ADComputerNetConfig](Get-ADComputerNetConfig) - Network configuration report of Active Directory domain joined servers and workstations.  
-[CheckpointSize](CheckpointSize) - Hyper-V checkpoint size report via VMM Command Shell.  
+[CheckpointSize](Scripts/CheckpointSize) - Hyper-V checkpoint size report via VMM Command Shell.  
 [SendGmail](SendGmail) - Send Gmail via PowerShell.  
 [Get-NTFSPermissions](Get-NTFSPermissions) - NTFS Permissions report.  
 [Generate-GUID](Generate-GUID) - Generate guid using PowerShell.
@@ -29,3 +29,4 @@
 ## HowTo's
 
 [Find-AzureEmptyRG](Find-AzureEmptyRG) - Microsoft Azure - Find empty Resource Groups.
+[Fix-AzureVault](Fix-AzureVault) - Microsoft Azure - Cross-subscription move error due to KeyVault.
