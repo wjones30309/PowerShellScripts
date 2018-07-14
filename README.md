@@ -16,7 +16,8 @@
 [CheckpointSize](Scripts/CheckpointSize) - Hyper-V checkpoint size report via VMM Command Shell.  
 [SendGmail](Scripts/SendGmail) - Send Gmail via PowerShell.  
 [Get-NTFSPermissions](Scripts/Get-NTFSPermissions) - NTFS Permissions report.  
-[Generate-GUID](Scripts/Generate-GUID) - Generate guid using PowerShell.
+[Generate-GUID](Scripts/Generate-GUID) - Generate guid using PowerShell.  
+[Query-mssql](Scripts/Query-mssql) - Query MS SQL Server and send the results via email.
 
 ## Networking
 
