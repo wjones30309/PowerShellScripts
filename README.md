@@ -34,4 +34,5 @@
 [Fix-AzureVault](Scripts/Fix-AzureVault) - Microsoft Azure - Cross-subscription move error due to KeyVault.  
 [Check-ADAcl](Scripts/Check-ADAcl) - Active Directory - Password Reset Delegation Audit.  
 [AzureUPNChange](Scripts/AzureUPNChange) - Microsoft Azure AD Connect and UPN change.  
-[MoveArchiveMailbox](Scripts/MoveArchiveMailbox) - Exchange Server - Move Archive between mailboxes.
+[MoveArchiveMailbox](Scripts/MoveArchiveMailbox) - Exchange Server - Move Archive between mailboxes.  
+[Set-AzureVMAS](Scripts/Set-AzureVMAS) - Microsoft Azure - Add existing VM to Availability Set.
