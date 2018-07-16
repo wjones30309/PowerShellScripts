@@ -41,4 +41,5 @@
 [PSObjectPropertyOrder](Scripts/PSObjectPropertyOrder) - PSObject property order (ordered hash tables).  
 [SessionRecording](Scripts/SessionRecording) - How to store all typed commands and their output to a file?  
 [SendEmailOnBehalf](Scripts/SendEmailOnBehalf) - Send email on behalf.  
-[WorkingWithArchives](Scripts/WorkingWithArchives) - Working with Archives.
+[WorkingWithArchives](Scripts/WorkingWithArchives) - Working with Archives.  
+[WorkingWithCredentials](Scripts/WorkingWithCredentials) - Storing credentials in a file.
