@@ -39,4 +39,5 @@
 [WorkingWithProcesses](Scripts/WorkingWithProcesses) - Working with Windows processes, get/kill.  
 [WorkingWithProgressBar](Scripts/WorkingWithProgressBar) - Working with Progress Bar.  
 [PSObjectPropertyOrder](Scripts/PSObjectPropertyOrder) - PSObject property order (ordered hash tables).  
-[SessionRecording](Scripts/SessionRecording) - How to store all typed commands and their output to a file?
+[SessionRecording](Scripts/SessionRecording) - How to store all typed commands and their output to a file?  
+[SendEmailOnBehalf](Scripts/SendEmailOnBehalf) - Send email on behalf.
