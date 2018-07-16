@@ -36,4 +36,5 @@
 [AzureUPNChange](Scripts/AzureUPNChange) - Microsoft Azure AD Connect and UPN change.  
 [MoveArchiveMailbox](Scripts/MoveArchiveMailbox) - Exchange Server - Move Archive between mailboxes.  
 [Set-AzureVMAS](Scripts/Set-AzureVMAS) - Microsoft Azure - Add existing VM to Availability Set.  
-[WorkingWithProcesses](Scripts/WorkingWithProcesses) - Working with Windows processes, get/kill.
+[WorkingWithProcesses](Scripts/WorkingWithProcesses) - Working with Windows processes, get/kill.  
+[WorkingWithProgressBar](Scripts/WorkingWithProgressBar) - Working with Progress Bar.
