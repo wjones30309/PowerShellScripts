@@ -37,4 +37,5 @@
 [MoveArchiveMailbox](Scripts/MoveArchiveMailbox) - Exchange Server - Move Archive between mailboxes.  
 [Set-AzureVMAS](Scripts/Set-AzureVMAS) - Microsoft Azure - Add existing VM to Availability Set.  
 [WorkingWithProcesses](Scripts/WorkingWithProcesses) - Working with Windows processes, get/kill.  
-[WorkingWithProgressBar](Scripts/WorkingWithProgressBar) - Working with Progress Bar.
+[WorkingWithProgressBar](Scripts/WorkingWithProgressBar) - Working with Progress Bar.  
+[PSObjectPropertyOrder](Scripts/PSObjectPropertyOrder) - PSObject property order (ordered hash tables).
