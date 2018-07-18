@@ -5,7 +5,9 @@
 [Get-MailboxStatisticsDetails](Scripts/Get-MailboxStatisticsDetails) - Gets detailed mailbox statistic information of Exchange Online mailbox. Useful for capacity planning of Outlook cached mode.  
 [O365Report](Scripts/O365Report) - Office 365 Report. Script combines Get-MsolUser, Get-Mailbox and Get-MailboxStatistics cmdlet's into single one. Also includes basic licensing information.  
 [Get-CalendarPermissionsReport](Scripts/Get-CalendarPermissionsReport) - Calendar permissions report for Exchange 2010/2013/2016 and Exchange Online.  
-[Get-MsolGroupMember](Scripts/Get-MsolGroupMember) - Extend functionality of Get-MsolGroupMember cmdlet from Windows Azure Active Directory Module. Just Office 365 groups membership report script.
+[Get-MsolGroupMember](Scripts/Get-MsolGroupMember) - Extend functionality of Get-MsolGroupMember cmdlet from Windows Azure Active Directory Module. Just Office 365 groups membership report script.  
+[Get-O365Users](Scripts/Get-O365Users) - Get report of Office 365 Users and attributes.  
+[Import-O365Users](Scripts/Import-O365Users) - Import Office 365 Users to Active Directory.
 
 ## Windows Server
 
@@ -42,4 +44,5 @@
 [SessionRecording](Scripts/SessionRecording) - How to store all typed commands and their output to a file?  
 [SendEmailOnBehalf](Scripts/SendEmailOnBehalf) - Send email on behalf.  
 [WorkingWithArchives](Scripts/WorkingWithArchives) - Working with Archives.  
-[WorkingWithCredentials](Scripts/WorkingWithCredentials) - Storing credentials in a file.
+[WorkingWithCredentials](Scripts/WorkingWithCredentials) - Storing credentials in a file.  
+[Azure2ADSync](Scripts/Azure2ADSync) - Synchronize Office 365 users back to Active Directory.
