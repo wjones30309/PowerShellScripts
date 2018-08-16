@@ -50,7 +50,7 @@ Send email with CSV file attached:
 Send-MailMessage -To $MailTo -From $MailFrom -Subject $MailSubject -Body $MailBody -Attachments $ExportPath$ReportDate.csv -SmtpServer $smtpServer
 ```
 
-Remove report if needed:
+Remove the report if needed:
 
 ```PowerShell
 if (!$KeepHistory) {Remove-Item $ExportPath$ReportDate.csv -Force}

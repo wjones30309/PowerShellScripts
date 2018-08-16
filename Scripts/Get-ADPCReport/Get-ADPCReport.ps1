@@ -1,4 +1,3 @@
-
 $ReportDate = Get-Date -format ddMMyyyy
 $smtpServer="SMTP_SERVER_IP_OR_DNS"
 $MailTo="MailToAddress@example.com"
