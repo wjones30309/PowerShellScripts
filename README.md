@@ -21,7 +21,8 @@
 [Generate-GUID](Scripts/Generate-GUID) - Generate guid using PowerShell.  
 [Query-mssql](Scripts/Query-mssql) - Query MS SQL Server and send the results via email.  
 [MonitorWindowsService](Scripts/MonitorWindowsService) - Monitor Windows Service.  
-[Get-ADPCReport](Scripts/Get-ADPCReport) - Active Directory domain joined workstations report.
+[Get-ADPCReport](Scripts/Get-ADPCReport) - Active Directory domain joined workstations report.  
+[Get-ADUsersReport](Scripts/Get-ADUsersReport) - Active Directory user accounts report.
 
 ## Networking
 
