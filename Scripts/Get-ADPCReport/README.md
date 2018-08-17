@@ -7,6 +7,14 @@ PowerShell script connects to your Active Directory and gets information about w
 Permissions to run `Get-ADComputer` cmdlet.  
 Mail relay configured.
 
+## Script Output (CSV)
+
+**Name** - AD Computer Object name.  
+**OperatingSystem** - Operating System.  
+**OperatingSystemServicePack** - OS Service Pack.  
+**OU** - Organizational Unit where the object is located.  
+**whenChanged** - Date when AD object was changed last time.
+
 ## Script Syntax
 
 Specify date format:
