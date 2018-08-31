@@ -22,7 +22,8 @@
 [Query-mssql](Scripts/Query-mssql) - Query MS SQL Server and send the results via email.  
 [MonitorWindowsService](Scripts/MonitorWindowsService) - Monitor Windows Service.  
 [Get-ADPCReport](Scripts/Get-ADPCReport) - Active Directory domain joined workstations report.  
-[Get-ADUsersReport](Scripts/Get-ADUsersReport) - Active Directory user accounts report.
+[Get-ADUsersReport](Scripts/Get-ADUsersReport) - Active Directory user accounts report.  
+[Get-ADPasswordExpirationReport](Scripts/Get-ADPasswordExpirationReport) - Active Directory Users Password Expiration report.
 
 ## Networking
 
