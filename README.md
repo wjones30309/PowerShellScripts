@@ -49,3 +49,7 @@
 [WorkingWithArchives](Scripts/WorkingWithArchives) - Working with Archives.  
 [WorkingWithCredentials](Scripts/WorkingWithCredentials) - Storing credentials in a file.  
 [Azure2ADSync](Scripts/Azure2ADSync) - Synchronize Office 365 users back to Active Directory.
+
+## Fun
+
+[Fix-PersonalDilemma](Scripts/Fix-PersonalDilemma) - Simple PowerShell script to solve a small dilemma
