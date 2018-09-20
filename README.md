@@ -48,7 +48,8 @@
 [SendEmailOnBehalf](Scripts/SendEmailOnBehalf) - Send email on behalf.  
 [WorkingWithArchives](Scripts/WorkingWithArchives) - Working with Archives.  
 [WorkingWithCredentials](Scripts/WorkingWithCredentials) - Storing credentials in a file.  
-[Azure2ADSync](Scripts/Azure2ADSync) - Synchronize Office 365 users back to Active Directory.
+[Azure2ADSync](Scripts/Azure2ADSync) - Synchronize Office 365 users back to Active Directory.  
+[PowerShellLogRead](Scripts/PowerShellLogRead) - How to read logs using PowerShell.
 
 ## Fun
 
