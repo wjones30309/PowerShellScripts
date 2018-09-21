@@ -2,7 +2,7 @@
 
 Get list of all parameters with aliases for all cmdlet's:
 
-```
+```text
 .\Get-ParameterAlias.ps1
 
 Command                                 Parameter                               Alias
@@ -22,7 +22,7 @@ Output omitted
 
 Get list of parameters with aliases for `Get-Content` cmdlet:
 
-```powershell
+```text
 .\Get-ParameterAlias.ps1 -cmdlet Get-Content | ft -AutoSize
 
 Command     Parameter      Alias
@@ -35,7 +35,7 @@ Get-Content UseTransaction usetx
 
 Same as above but only `Tail` parameter:
 
-```powershell
+```text
 .\Get-ParameterAlias.ps1 -cmdlet Get-Content -ParameterOrAlias Tail | ft -AutoSize
 
 Command     Parameter Alias
@@ -45,7 +45,7 @@ Get-Content Tail      Last
 
 All parameters with `Session` parameter or alias:
 
-```powershell
+```text
 .\Get-ParameterAlias.ps1 Session
 
 Command                                 Parameter                               Alias
@@ -63,7 +63,7 @@ Output omitted
 
 Wildcard is also accepted:
 
-```powershell
+```text
 .\Get-ParameterAlias.ps1 Administrative*
 
 Command                                 Parameter                               Alias
