@@ -25,14 +25,6 @@
 [Get-ADUsersReport](Scripts/Get-ADUsersReport) - Active Directory user accounts report.  
 [Get-ADPasswordExpirationReport](Scripts/Get-ADPasswordExpirationReport) - Active Directory Users Password Expiration report.
 
-## Networking
-
-[TCPListen](Scripts/TCPListen) - Open TCP port and listen for connections. Useful for troubleshooting TCP/IP or Firewall issues.
-
-## PowerShell games
-
-[Start-SeaBattle](Scripts/Start-SeaBattle) - Create 5 submarines (single-funnel) and play against computer.
-
 ## HowTo's
 
 [Find-AzureEmptyRG](Scripts/Find-AzureEmptyRG) - Microsoft Azure - Find empty Resource Groups.  
@@ -49,7 +41,16 @@
 [WorkingWithArchives](Scripts/WorkingWithArchives) - Working with Archives.  
 [WorkingWithCredentials](Scripts/WorkingWithCredentials) - Storing credentials in a file.  
 [Azure2ADSync](Scripts/Azure2ADSync) - Synchronize Office 365 users back to Active Directory.  
-[PowerShellLogRead](Scripts/PowerShellLogRead) - How to read logs using PowerShell.
+[PowerShellLogRead](Scripts/PowerShellLogRead) - How to read logs using PowerShell.  
+[Get-ParameterAlias](Scripts/Get-ParameterAlias) - Get PowerShell cmdlet parameter alias.
+
+## Networking
+
+[TCPListen](Scripts/TCPListen) - Open TCP port and listen for connections. Useful for troubleshooting TCP/IP or Firewall issues.
+
+## Games
+
+[Start-SeaBattle](Scripts/Start-SeaBattle) - Create 5 submarines (single-funnel) and play against computer.
 
 ## Fun
 
