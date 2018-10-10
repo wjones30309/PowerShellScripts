@@ -1,13 +1,14 @@
 # PowerShell scripts
 
-## Office 365, Microsoft Exchange and Exchange Online
+## Microsoft Azure, Office 365, Microsoft Exchange and Exchange Online
 
 [Get-MailboxStatisticsDetails](Scripts/Get-MailboxStatisticsDetails) - Gets detailed mailbox statistic information of Exchange Online mailbox. Useful for capacity planning of Outlook cached mode.  
 [O365Report](Scripts/O365Report) - Office 365 Report. Script combines Get-MsolUser, Get-Mailbox and Get-MailboxStatistics cmdlet's into single one. Also includes basic licensing information.  
 [Get-CalendarPermissionsReport](Scripts/Get-CalendarPermissionsReport) - Calendar permissions report for Exchange 2010/2013/2016 and Exchange Online.  
 [Get-MsolGroupMember](Scripts/Get-MsolGroupMember) - Extend functionality of Get-MsolGroupMember cmdlet from Windows Azure Active Directory Module. Just Office 365 groups membership report script.  
 [Get-O365Users](Scripts/Get-O365Users) - Get report of Office 365 Users and attributes.  
-[Import-O365Users](Scripts/Import-O365Users) - Import Office 365 Users to Active Directory.
+[Import-O365Users](Scripts/Import-O365Users) - Import Office 365 Users to Active Directory.  
+[Get-MsolADPasswordReport](Scripts/Get-MsolADPasswordReport) - Azure AD Connect password synchronization report.
 
 ## Windows Server
 
