@@ -8,7 +8,9 @@
 [Get-MsolGroupMember](Scripts/Get-MsolGroupMember) - Extend functionality of Get-MsolGroupMember cmdlet from Windows Azure Active Directory Module. Just Office 365 groups membership report script.  
 [Get-O365Users](Scripts/Get-O365Users) - Get report of Office 365 Users and attributes.  
 [Import-O365Users](Scripts/Import-O365Users) - Import Office 365 Users to Active Directory.  
-[Get-MsolADPasswordReport](Scripts/Get-MsolADPasswordReport) - Azure AD Connect password synchronization report.
+[Get-MsolADPasswordReport](Scripts/Get-MsolADPasswordReport) - Azure AD Connect password synchronization report.  
+[Get-MailForwardingReport](Scripts/Get-MailForwardingReport) - TO DO  
+[Get-MessageTraceReport](Scripts/Get-MessageTraceReport) - TO DO
 
 ## Windows Server
 
@@ -43,7 +45,8 @@
 [WorkingWithCredentials](Scripts/WorkingWithCredentials) - Storing credentials in a file.  
 [Azure2ADSync](Scripts/Azure2ADSync) - Synchronize Office 365 users back to Active Directory.  
 [PowerShellLogRead](Scripts/PowerShellLogRead) - How to read logs using PowerShell.  
-[Get-ParameterAlias](Scripts/Get-ParameterAlias) - Get PowerShell cmdlet parameter alias.
+[Get-ParameterAlias](Scripts/Get-ParameterAlias) - Get PowerShell cmdlet parameter alias.  
+[ParseBarracudaLogs](Scripts/ParseBarracudaLogs) - How to parse Barracuda logs using PowerShell.
 
 ## Networking
 
