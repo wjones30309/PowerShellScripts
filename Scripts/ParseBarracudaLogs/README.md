@@ -33,7 +33,7 @@ $domains = Import-Csv .\domains.txt
 foreach ($domain in $domains)
 {
 $Messages = @()
-$Messages = $logs | where {$_.From -like "*$($domain.Domain)*" -or $_.To -like "*$($domain.Domain)*"} | measure
+$Messages = $logs | Where-Object {$_.From -like "*$($domain.Domain)*" -or $_.To -like "*$($domain.Domain)*"} | Measure-Object
 
 if ($Messages)
     {
@@ -41,7 +41,33 @@ if ($Messages)
         "Domain"=$domain.Domain
         "Messages"=$Messages.Count}
     $Obj = New-Object -TypeName PSObject -Property $Properties
-    Write-Output $Obj | select Domain, Messages
+    Write-Output $Obj | Select-Object Domain, Messages
+    }
+}
+```
+
+If you want to get a list of all active domains and message counts of your VA, you can export inbound (Accepted) Message Log to `logs.csv` file and use the script below:
+
+```powershell
+$logs = Import-Csv .\logs.csv
+$emails = $logs | Group-Object To | Select-Object Name
+$domains = @()
+
+foreach ($email in $emails){$domains+=$email.Name.split("@")[-1]}
+$domains = $domains | Sort-Object -Unique | Sort-Object Name
+
+foreach ($domain in $domains)
+{
+$Messages = @()
+$Messages = $logs | Where-Object {$_.To -like "*$($domain)*"} | Measure-Object
+
+if ($Messages)
+    {
+    $Properties = @{
+        "Domain"=$domain
+        "Messages"=$Messages.Count}
+    $Obj = New-Object -TypeName PSObject -Property $Properties
+    Write-Output $Obj | Select-Object Domain, Messages
     }
 }
 ```
