@@ -9,7 +9,7 @@
 [Get-O365Users](Scripts/Get-O365Users) - Get report of Office 365 Users and attributes.  
 [Import-O365Users](Scripts/Import-O365Users) - Import Office 365 Users to Active Directory.  
 [Get-MsolADPasswordReport](Scripts/Get-MsolADPasswordReport) - Azure AD Connect password synchronization report.  
-[Get-MailForwardingReport](Scripts/Get-MailForwardingReport) - TO DO  
+[Get-MailForwardingReport](Scripts/Get-MailForwardingReport) - Exchange Server mail forwarding report.  
 [Get-MessageTraceReport](Scripts/Get-MessageTraceReport) - TO DO
 
 ## Windows Server
