@@ -9,7 +9,7 @@ Permissions to run `Get-Mailbox` and `Get-MessageTrace` cmdlet's.
 
 ## Limitations
 
-`Get-MessageTrace` cmdlet returns maximum of 10KK results, and not older than 10 days.
+`Get-MessageTrace` cmdlet returns maximum of 10KK results, and not older than 10 days. There is `Days` variable in the script, default is 7 days.
 
 ## Output example
 
