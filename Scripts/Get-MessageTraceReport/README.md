@@ -1,3 +1,28 @@
+# Exchange Online - Message trace report
+
+This script connects to Exchange Online tenant and gathers message trace information. The report contains sent/receive and spam messages count.
+
+## Requirements
+
+Installed Exchange Online PowerShell module.  
+Permissions to run `Get-Mailbox` and `Get-MessageTrace` cmdlet's.
+
+## Limitations
+
+`Get-MessageTrace` cmdlet returns maximum of 10KK results, and not older than 10 days.
+
+## Output example
+
+```text
+Email                        Sent Receive Spam
+-----                        ---- ------- ----
+user1@example.com              22      41    5
+user2@example.com              15      59    4
+```
+
+## Script syntax
+
+```powershell
 $Mailbox = Get-Mailbox | where {$_.RecipientTypeDetails -ne "DiscoveryMailbox"}
 $Days = 7
 $StartDate = (Get-Date).AddDays(-$Days)
@@ -12,3 +37,4 @@ $Out | Add-Member -type NoteProperty Sent $SentLog.count
 $Out | Add-Member -type NoteProperty Receive ($ReceiveLog | Where-Object {$_.Name -eq "Delivered"}).Count
 $Out | Add-Member -type NoteProperty Spam ($ReceiveLog | Where-Object {$_.Name -eq "FilteredAsSpam"}).Count
 Write-Output $Out}
+```
