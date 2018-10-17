@@ -14,10 +14,10 @@ Permissions to run `Get-Mailbox` and `Get-MessageTrace` cmdlet's.
 ## Output example
 
 ```text
-Email                        Sent Receive Spam
------                        ---- ------- ----
-user1@example.com              22      41    5
-user2@example.com              15      59    4
+Email                        Sent Received Spam
+-----                        ---- -------- ----
+user1@example.com              22       41    5
+user2@example.com              15       59    4
 ```
 
 ## Script syntax
@@ -34,7 +34,7 @@ $SentLog = Get-MessageTrace -SenderAddress $Email -StartDate $StartDate -EndDate
 $Out = New-Object PSObject
 $Out | Add-Member -type NoteProperty Email $Email
 $Out | Add-Member -type NoteProperty Sent $SentLog.count
-$Out | Add-Member -type NoteProperty Receive ($ReceiveLog | Where-Object {$_.Name -eq "Delivered"}).Count
+$Out | Add-Member -type NoteProperty Received ($ReceiveLog | Where-Object {$_.Name -eq "Delivered"}).Count
 $Out | Add-Member -type NoteProperty Spam ($ReceiveLog | Where-Object {$_.Name -eq "FilteredAsSpam"}).Count
 Write-Output $Out}
 ```

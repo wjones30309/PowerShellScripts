@@ -9,6 +9,6 @@ $SentLog = Get-MessageTrace -SenderAddress $Email -StartDate $StartDate -EndDate
 $Out = New-Object PSObject
 $Out | Add-Member -type NoteProperty Email $Email
 $Out | Add-Member -type NoteProperty Sent $SentLog.count
-$Out | Add-Member -type NoteProperty Receive ($ReceiveLog | Where-Object {$_.Name -eq "Delivered"}).Count
+$Out | Add-Member -type NoteProperty Received ($ReceiveLog | Where-Object {$_.Name -eq "Delivered"}).Count
 $Out | Add-Member -type NoteProperty Spam ($ReceiveLog | Where-Object {$_.Name -eq "FilteredAsSpam"}).Count
 Write-Output $Out}
