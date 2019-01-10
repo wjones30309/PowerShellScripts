@@ -46,7 +46,8 @@
 [Azure2ADSync](Scripts/Azure2ADSync) - Synchronize Office 365 users back to Active Directory.  
 [PowerShellLogRead](Scripts/PowerShellLogRead) - How to read logs using PowerShell.  
 [Get-ParameterAlias](Scripts/Get-ParameterAlias) - Get PowerShell cmdlet parameter alias.  
-[ParseBarracudaLogs](Scripts/ParseBarracudaLogs) - How to parse Barracuda logs using PowerShell.
+[ParseBarracudaLogs](Scripts/ParseBarracudaLogs) - How to parse Barracuda logs using PowerShell.  
+[MinimizeWindowsServerImage](Scripts/MinimizeWindowsServerImage) - How to minimize storage footprint of Azure Windows Server.
 
 ## Networking
 
