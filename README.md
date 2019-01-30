@@ -27,7 +27,8 @@
 [Get-ADPCReport](Scripts/Get-ADPCReport) - Active Directory domain joined workstations report.  
 [Get-ADUsersReport](Scripts/Get-ADUsersReport) - Active Directory user accounts report.  
 [Get-ADPasswordExpirationReport](Scripts/Get-ADPasswordExpirationReport) - Active Directory Users Password Expiration report.  
-[Get-ADGroupNesting](Scripts/Get-ADGroupNesting) - Check Active Directory groups nesting.
+[Get-ADGroupNesting](Scripts/Get-ADGroupNesting) - Check Active Directory groups nesting.  
+[Get-IISCurrentConnections](Scripts/Get-IISCurrentConnections) - Monitor current IIS connections using PowerShell.
 
 ## HowTo's
 
