@@ -56,7 +56,7 @@ while ($Time.elapsed -lt $Timeoutt)
 {
 $Connections = (Get-Counter "\Web Service($Instance)\Current Connections" | select -ExpandProperty CounterSamples).cookedvalue
 Clear-Host
-if (!$Connections) {Write-Host "IIS Instance not found. Please check the name"; break}
+if ($Connections -eq $null) {Write-Host "IIS Instance not found. Please check the name"; break}
 else {Write-Host "Current IIS Connections: $Connections"}
 Start-Sleep -Seconds 1
 }
