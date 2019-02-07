@@ -55,7 +55,8 @@
 ## Networking
 
 [TCPListen](Scripts/TCPListen) - Open TCP port and listen for connections. Useful for troubleshooting TCP/IP or Firewall issues.  
-[Get-MXReport](Scripts/Get-MXReport) - DNS MX Report using PowerShell.
+[Get-MXReport](Scripts/Get-MXReport) - DNS MX Report using PowerShell.  
+[Get-DNSNSReport](Scripts/Get-DNSNSReport) - DNS Name Servers report.
 
 ## Games
 
