@@ -6,7 +6,7 @@ Here is procedure how you can move your authentication to on-premise Active Dire
 
 2. Install Azure AD Connect and configure synchronization. Options are up to you, it can be Password Sync, Pass-through authentication etc.
 
-3. Import Office 365 Users using <a href="../Get-O365Users">Import-O365Users</a>
+3. Import Office 365 Users using <a href="../Import-O365Users">Import-O365Users</a>
 
 4. Ask users to change their Active Directory passwords.
 
